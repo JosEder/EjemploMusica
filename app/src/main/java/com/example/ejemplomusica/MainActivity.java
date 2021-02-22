@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         bExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Hasta luego",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Hasta Pronto",Toast.LENGTH_LONG).show();
                 finish();
             }
         });
