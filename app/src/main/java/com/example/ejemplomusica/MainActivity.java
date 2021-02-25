@@ -1,5 +1,6 @@
 //By: Jose Eder Martinez Martinez
 
+
 package com.example.ejemplomusica;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         bExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Hasta Pronto",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Pronto",Toast.LENGTH_LONG).show();
                 finish();
             }
         });
